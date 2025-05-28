@@ -1,14 +1,5 @@
 name: Continous Integration
 on:
-  push:
-    paths:
-      - '**.dart'
-      - 'pubspec.yaml'
-  pull_request:
-    branches: [ master, ]
-    paths:
-      - '**.dart'
-      - 'pubspec.yaml'
   workflow_call:
   workflow_dispatch:
 
